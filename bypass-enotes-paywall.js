@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name            Remove Enotes.com paywall
-// @version         1.0
+// @name            Bypass eNotes.com paywall
+// @version         1.0.1
 // @description     personal js script to remove paywall for enotes.com
 // @author          stevenya97
+// @updateURL       https://raw.githubusercontent.com/stevenya97/bypass-enotes-paywall/main/bypass-enotes-paywall.js
 // @match           *://*.com/*
 // @grant           GM.xmlHttpRequest
 // ==/UserScript==
