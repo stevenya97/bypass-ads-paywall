@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name            Bypass eNotes.com paywall
-// @version         1.0.1
-// @description     personal js script to remove paywall for enotes.com
+// @name            Bypass Ads Paywall Nano
+// @version         1.0.2
+// @description     personal js script to remove paywall for sites like enotes.com and charlotteobserver.com
 // @author          stevenya97
 // @updateURL       https://raw.githubusercontent.com/stevenya97/bypass-enotes-paywall/main/bypass-enotes-paywall.js
-// @match           *://*.com/*
+// @match           *://*.enotes.com/*
+// @match           *://*.charlotteobserver.com/*
+// @match           *://*.sonyalpharumors.com/*
 // @grant           GM.xmlHttpRequest
 // ==/UserScript==
 (function() {
@@ -24,9 +26,15 @@ window.setTimeout(function () {
     
     hideDOMElement(...section_words);
      
-    let trailing_ellipsis = document.querySelector('div.o-rte-text')
+    let trail = document.querySelector('div.o-rte-text')
   }
 }
+    else if(matchDomain('charlotteobserver.com')){
+        
+    }
+    else if(matchDomain('sonyalpharumors.com')){
+        
+    }
 },1000);
     
 // Config
