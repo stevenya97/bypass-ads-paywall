@@ -1,7 +1,13 @@
-# bypass-enotes-paywall
-Attempts to bypass paywall for eNotes.com. Reveals content hidden behind the site's blur filter
+# bypass-ads-paywall
+Attempts to bypass paywalls on certain sites not covered by bypass-paywall-clean. Maintained based on my personal browsing habits and findings. To be used with bypass-paywall-clean.
 
 Forked and modified from 'en' variant of [bpc-clone/bypass-paywall-clean-filters](https://github.com/bpc-clone/bypass-paywalls-clean-filters)
+
+### Supported Sites
+eNotes.com
+charlotteobserver.com
+sonyalpharumors.com
+
 ### Installation
 
 [link to script](https://raw.githubusercontent.com/stevenya97/bypass-enotes-paywall/main/bypass-enotes-paywall.js)
