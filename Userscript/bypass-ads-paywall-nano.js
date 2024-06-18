@@ -3,7 +3,7 @@
 // @version         1.0.2
 // @description     personal js script to remove paywall for sites like enotes.com and charlotteobserver.com
 // @author          stevenya97
-// @updateURL       https://raw.githubusercontent.com/stevenya97/bypass-ads-paywall/main/bypass-ads-paywall-nano.js
+// @updateURL       https://raw.githubusercontent.com/stevenya97/Userscript/bypass-ads-paywall/main/bypass-ads-paywall-nano.js
 // @match           *://*.enotes.com/*
 // @match           *://*.charlotteobserver.com/*
 // @match           *://*.sonyalpharumors.com/*
